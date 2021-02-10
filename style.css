@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f2f5;
+}
+.container{
+    width: 25%;
+    margin: auto;
+    /* border: solid 2px red; */
+}
+.box1{
+    margin: 20px;
+    background-color: #ffffff;
+    border: solid 1px #a49999;
+    padding: 19px;
+    text-align: center;
+    border: #dddfe2;
+}
+.input{
+    width: 72%;
+    padding: 17px;
+    background-color: #f0f2f5;
+    font-size: 16px;
+    border: solid 2px #dddfe2;
+    border-radius: 8px;
+}
+.box1 h1{
+    font-family: Lucida Handwriting;
+    /* font-family: 'Oleo Script', cursive, ; */
+    font-size: 62px;
+    background-color: white;
+    margin-top: 23px;
+    text-align: center;
+}
+.btn1{
+    width: 81%;
+    padding: 10px;
+    background-color: #1877f2;
+    font-size: 21px;
+    border: solid 2px #dddfe2;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#para1{
+    font-size: 23px;
+}
+#para1 a{
+    text-decoration: none;
+    color: #385185;
+}
+#para2{
+    font-size: 17px;
+}
+#para2 a{
+    text-decoration: none;
+    color: rgba(var(--fe0,0,55,107),1);
+}
+.box2{
+    border: solid 2px #dddfe2;
+    margin: 20px;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 21px;
+    /* margin: 15px; */
+    text-align: center;
+    font-weight: lighter;
+    background-color: white;
+    border: #dddfe2;
+    padding: 10px;
+}
+.box2 a{
+    color: #0095f6;
+    text-decoration: none;
+}
+.box3{
+    /* border: solid 2px #dddfe2; */
+    margin: 20px;
+    text-align: center;
+}
+.box3 p{
+    font-size: 21px;
+}
+.box4{
+    /* border: solid 2px #dddfe2; */
+    margin: 20px;
+    text-align: center;
+}
+.box4 img{
+    margin: 5px;
+    cursor: pointer;
+}
+.box5{
+    /* border: solid 2px #dddfe2; */
+    margin: 20px;
+}
+#line1{
+    bottom: 0px;
+    margin-bottom: 79px;
+    left: 164px;
+}
+#line1 a{
+    color: #00376b;
+    /* padding: 16px; */
+    font-size: 20px;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.center{
+    position: absolute;
+    bottom: 200px;
+    margin-bottom: 79px;
+    right: 164px;
+}
