@@ -1,0 +1,21 @@
+<h3>
+	<a [href]="product.url" [title]="product.name + ' details'">
+		{{ product.name }}
+	</a>
+</h3>
+
+<img [src]="product.img" alt="product.name">
+
+<p *ngIf="product.description">
+	Description: {{ product.description }}
+</p>
+
+<p *ngIf="product.rating">
+	Rating: {{ product.rating }}
+</p>
+
+<a href="'https://wa.me/77474757494?text=' + product.url">
+	<button>
+		Share
+		</button>
+</a>
